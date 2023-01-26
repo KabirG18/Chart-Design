@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+/*    font-family: 'DM Sans', sans-serif; */ 
+
+body {
+    display: grid;
+    place-items: center;
+    padding-top: 150px;
+    background-color:  hsl(27, 66%, 92%);
+}
+
+#balanceDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    padding: 20px; 
+}
+
+#logo {
+    padding-top: 15px;
+    padding-left: 90px;
+}
+
+#balanceH5 {
+    font-weight: 400;
+}
+
+#graphDiv {
+    background-color:  hsl(33, 100%, 98%); 
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+} 
+
+#spendingH1 {
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(25, 47%, 15%);
+}
+
+hr {
+    color: hsl(33, 100%, 98%);
+    opacity: 40%;
+} 
+
+#footerData {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#totalH5 {
+    margin-bottom: -10px;
+    font-family: 'DM Sans', sans-serif;
+    color:  hsl(28, 10%, 53%);
+    font-weight: 700;
+} 
+
+#amountH1 {
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(25, 47%, 15%);
+    font-size: 40px;
+} 
+
+#percentH2 {
+    padding-top: 12px;
+    padding-left: 160px;
+    margin-bottom: -10px;
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(25, 47%, 15%);
+}
+
+#lastH6 {
+    padding-left: 160px;
+    font-family: 'DM Sans', sans-serif;
+    color:  hsl(28, 10%, 53%);     
+}
